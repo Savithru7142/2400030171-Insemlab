@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header, footer {
+  background: #e9f7fb;
+  text-align: center;
+  padding: 1rem;
+}
+
+.description {
+  font-size: 1.2rem;
+}
+
+main {
+  padding: 1rem;
+}
+
+.projects {
+  max-width: 800px;
+  margin: auto;
+}
+
+.project-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+
+.project {
+  background: #f4f4f4;
+  border-radius: 8px;
+  flex: 1 1 45%;
+  min-width: 280px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+  .project-list {
+    flex-direction: column;
+  }
+}
